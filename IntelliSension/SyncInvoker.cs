@@ -57,7 +57,7 @@ namespace IntelliSension
                     Arguments = scriptPath + " " + filePath,
                     RedirectStandardOutput = true,
                     UseShellExecute = false,
-                    CreateNoWindow = false
+                    CreateNoWindow = true
                 };
 
                 // Start the process
